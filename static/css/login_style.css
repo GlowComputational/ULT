@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url('../images/login_page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: 0%;
+
+  }
+
+img{
+    height: 75px;
+    /* padding-left: 850px;
+    padding-top: 500px; */
+
+  }
+
+img[alt~="a"] {
+    scale: 1.5;
+    
+}
+img[alt~="b"] {
+    scale: 1.8;
+    
+}
+
+img[alt~="c"] {
+    scale: 1.5;
+    
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-family:'Bebas Neue';
+  font-weight: 900;
+  font-size: 50px;
+  opacity: 0;
+}
+
+.parameters{
+  /* background-color: rgb(240, 248, 255,0.7); */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  align-items:center;
+}
+
+.parameters img{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  
+}
+
+
+
+.parameters .titl{
+  font-family:'Bebas Neue';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.colab{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 50px;
+}
+
+.colab img{
+  overflow: hidden;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.colab:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.maps{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 50px;
+}
+
+.maps img{
+  overflow: hidden;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.maps:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.distance{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 50px;
+}
+
+::placeholder {
+  font-family:'Bebas Neue';
+  font-weight: 400;
+
+  padding: 0 10px;
+
+}
+
+.parameters .example{
+  font-family:'Arial';
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.gif{
+  display: flex;
+  justify-content: center;
+}
+
+.gif .image{
+  margin-top: -100px;
+  scale: 0.2;
+  filter:grayscale();
+  
+  overflow: hidden;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.gif:hover .image{
+	-webkit-transform: scale(2);
+	transform: scale(2);
+  filter: none;
+  margin-bottom: 10px;
+}
